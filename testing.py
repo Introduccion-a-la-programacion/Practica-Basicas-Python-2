@@ -11,7 +11,7 @@ def test_compararNumeros_2():
     assert Practica01.compararNumeros(10, 10) == False
     
 def test_compararNumeros_3():
-    assert Practica01.compararNumeros(10, 0) == False
+    assert Practica01.compararNumeros(10, 100) == False
     
-def test_compararNumeros_1():
+def test_compararNumeros_4():
     assert isinstance(Practica01.compararNumeros(-10, 10), str) == isinstance("Error: El parámtro debe ser mayor a CERO", str)    
